@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
 
       // IMPORTANT: Replace this placeholder with your WhatsApp number.
-      // Use country code without + or spaces, e.g. +91XXXXXXXXXX
-      const WHATSAPP_NUMBER = "+917411441962";
+      // Use country code without + or spaces, e.g. 91XXXXXXXXXX
+      const WHATSAPP_NUMBER = "917411441962";
 
       const name = document.getElementById("name").value.trim();
       const mobile = document.getElementById("mobile").value.trim();
